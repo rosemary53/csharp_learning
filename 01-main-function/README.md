@@ -8,6 +8,11 @@
  - İşletim sistemi main fonksiyonuna değer gönderebilir.
  - Bu değer main fonksiyonunun parametresi olan args dizisinde tutulur.Yani args dizisi,işletim sistemi tarafından komut satırından uygulamaya gönderilen değerleri tutar.
 
+ - Main fonksiyonu kodu :
+   
+    static void Main(string[] args) {
+    }
+
      - dotnet run rosemary 23 
      - args dizisine rosemary ve 23 değerleri gelir.
      - args dizisinin tipi String[]'tir. Yani elemanlar String olarak tutulur.
