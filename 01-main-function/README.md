@@ -17,7 +17,7 @@
      - args dizisine rosemary ve 23 değerleri gelir.
      - args dizisinin tipi String[]'tir. Yani elemanlar String olarak tutulur.
      - args == ["rosemary","23"] şeklindedir.
-     - args[0] = "rosemary"
-     - args[1] = "23"  olur.
+     - args[0] = "rosemary"      :args dizisinin 0.indeksteki 1.elemanı 
+     - args[1] = "23"  olur.     :args dizisinin 1.indeksteki 2.elemanı
      
 
