@@ -45,16 +45,17 @@
 # Sayısal değerler
 # Dikkat 1: Sayısal bir değer başlangıçta varsayılan olarak 'integer' kabul edilir.
 # Dikkat 2: Ondalıklı bir değer başlangıçta varsayılan olarak 'double' kabul edilir.
+# Sayısal türlerin varsayılan değeri 0.
 
 # Tuple türüyle değer atama
 - Prototipi şu şekildedir.
-  - (tür değişken1,tür değişken2,..) = (değişken1 değer,değişken2 değer,..)
+- (tür değişken1,tür değişken2,..) = (değişken1 değer,değişken2 değer,..)
 # Örnek 1:
 - int sayi1 = 20;
 - int sayi2 = 30;
 - (int sayi1,int sayi2) sayilar = (20,30);
 # Örnek 2: Bir kişiyi tanımlayan temel özellikleri tuple ile ifade ediniz.
--(string ad,string soyad,int yas,bool medeniHal) kisiBilgisi = ("ayse","yilmaz","23","false");
+- (string ad,string soyad,int yas,bool medeniHal) kisiBilgisi = ("ayse","yilmaz","23","false");
 
 # Değeri olmayan değişkenler
 - Class içerisinde tanımlanan değişkenlere varsayılan değer otomatik atanır.
